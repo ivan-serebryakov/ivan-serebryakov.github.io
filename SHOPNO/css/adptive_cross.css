@@ -1,0 +1,209 @@
+@media (max-width:1700px ) {
+	div.says{
+	max-width: 80%;}
+}
+
+
+@media (max-width: 1440px){
+	div.fifth_scene {
+    min-height: 1770px;
+	}
+	div.workers {
+    max-width: 780px;
+    margin: 0 auto;
+    margin-top: 60px;
+	}
+	
+}
+
+
+
+@media (max-width: 1250px){
+	div.message, div.contacts{
+		float: none;
+		width: 550px;
+		margin: 0 auto;
+	}
+	div.contacts{
+		margin-top: 30px;
+		height: 395px;
+	}
+	div.address{
+		float: left;
+	}
+	div.web_info{
+		float: right;
+	}
+}
+
+
+@media (max-width:1400px ) {
+	div.says{
+	max-width: 97%;
+	}
+	div.sponsors {
+    padding-top: 50px;
+    
+}
+}
+
+@media (max-width: 1155px){
+	div.third_scene{
+	 min-height: 1400px;
+	}
+	div.eggs {
+    max-width: 770px;
+    margin: 40px auto;
+	}
+	
+
+}
+
+@media (max-width:1150px ) {
+	/*sec scene*/
+	
+	div.slider_1 {
+    width: 370px;
+    float: none;
+    margin: 0 auto;
+    margin-top: 130px;
+	}
+
+	div.text_block {
+    max-width: 100%;
+    float: right;
+    margin-top: 0;
+    line-height: 1.3;
+    word-wrap: break-word;
+	}
+	div.sec_scene {
+    min-height: 1125px;
+	}
+
+
+	div.fourth_scene{
+		    height: 2830px;
+	}
+	div.service{
+		margin-left: 20%;
+	}
+	div.service_2, div.service_4, div.service_5{
+		    margin-left: 28%;
+	}
+
+  
+}
+
+
+
+
+@media (max-width: 1130px){
+	div.six_scene{
+		min-height: 1045px;
+	}
+	div.says {
+
+    padding-top: 50px;
+	}
+	div.arrows{
+		width: 200px;
+		margin: 0 auto;
+		float: none;
+	}
+	div.photo, div.description{
+		float: none;
+		margin: 0 auto;
+		margin-top: 70px;
+	}
+
+	div.description {
+    width: 556px;
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	}
+
+}
+
+
+
+
+
+
+@media(max-width: 950px){
+	div.service{
+		margin-left: 16%;
+	}
+	div.service_2, div.service_4, div.service_5{
+		    margin-left: 24%;
+	}
+
+}
+
+@media(max-width: 900px){
+	#main_menu{
+		display: block;
+	}
+	div.header button{
+		display: none;
+	}
+}
+
+@media (max-width: 770px){
+	
+
+	div.first_scene {
+    min-height: 600px;
+    padding-top: 10px;
+	}
+
+
+	div.sec_scene{
+		padding-top: 0;
+		min-height: 1000px;
+	}
+	div.slider_1 {
+    margin-top: 35px;
+	}
+
+
+	div.third_scene{
+		min-height: 2480px;
+	}
+	div.featured {
+    padding-top: 40px;
+	}
+	div.eggs{
+		width: 370px;
+	}
+
+
+
+	div.fourth_scene{
+	height: 2730px;
+	}
+	div.our_services {
+    padding-top: 50px;
+    padding-bottom: 50px;
+	}
+	div.service{
+	margin-left: 5%;
+	}
+	div.service_2, div.service_4, div.service_5{
+	margin-left: 15%;
+	}
+
+
+
+	div.fifth_scene{
+	min-height: 3100px;
+	}
+	div.workers {
+    max-width: 370px;
+    margin-top: 40px;
+    }
+	div.people {
+    margin: 15px;
+	}
+}
