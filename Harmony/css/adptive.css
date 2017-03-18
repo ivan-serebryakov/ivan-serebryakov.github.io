@@ -1,0 +1,19 @@
+@media screen and (max-device-width: 1190px) {
+	div.content .prod_block {
+    	height: 200px;	
+    	padding-bottom: 10px;
+	}
+}
+@media screen and (max-device-width: 1455px){
+	footer ul{
+		    width: 37%;
+	}
+}
+@media screen and (max-device-width: 1140px){
+	div.gallery .photos {
+    width: 355px;}
+	div.content .prod_block {
+    
+    	padding-bottom: 20px;
+	}
+}

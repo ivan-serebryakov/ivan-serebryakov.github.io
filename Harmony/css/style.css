@@ -1,0 +1,247 @@
+body {
+  background: url(..//images/bg_top.png) no-repeat;
+  background-size: 100%;
+}
+html {
+  background: url(..//images/main_bg.png);
+}
+div.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 1400px;
+}
+div.header {
+  height: 120px;
+}
+.logo {
+  float: left;
+  margin-top: 25px;
+}
+.contacts {
+  margin-top: 3px;
+  float: right;
+  font-family: Tahoma;
+}
+.contacts p {
+  font-size: 12px;
+  color: #588193;
+  font-family: Tahoma;
+}
+.contacts p span {
+  font-size: 18px;
+  color: #236583;
+  font-weight: bold;
+}
+.contacts p a {
+  font-size: 18px;
+  color: #236583;
+  font-weight: bold;
+}
+.top_contact {
+  float: left;
+  margin-right: 30px;
+}
+.top_email {
+  float: right;
+}
+.call_man {
+  float: right;
+  margin-top: 6px;
+}
+.call_man button {
+  position: relative;
+  right: 36px;
+  bottom: 9px;
+  height: 27px;
+  color: #fff;
+  background-color: #b12816;
+  border: none;
+  border-top: 1px solid #f53319;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0px 50px 106px -33px rgba(0, 0, 0, 0.75);
+}
+.main_frame {
+  background-size: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #f0f5f6;
+  height: 657px;
+}
+aside {
+  width: 19%;
+  float: left;
+}
+aside .menu {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+aside .menu ul.main_menu {
+  list-style-image: url(..//images/menu_icon.png);
+}
+aside .menu ul.main_menu li {
+  padding-bottom: 7px;
+  padding-top: 7px;
+  border-bottom: 1px solid #dae2e2;
+  border-top: 1px solid #fff;
+  font-size: 17px;
+}
+aside .menu ul.main_menu li:hover {
+  background-color: #dae2e2;
+}
+aside .title {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background-color: #fff;
+  height: 45px;
+  margin-bottom: 16px;
+}
+aside .title p {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #6c924c;
+}
+aside .sert {
+  margin-top: 35px;
+  border: 1px solid #ced7dc;
+  border-radius: 7px;
+}
+aside .sert img {
+  width: 103px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 1px solid #236583;
+}
+aside .brands {
+  margin-top: 35px;
+  border: 1px solid #ced7dc;
+  border-radius: 7px;
+}
+aside .brands table {
+  width: 100%;
+}
+aside .brands table td {
+  width: 50%;
+  padding-bottom: 15px;
+}
+aside .brands table td img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+div.content {
+  float: right;
+  width: 77%;
+  margin-right: 10px;
+}
+div.content .prod_block {
+  border-radius: 9px;
+  border: 1px solid #bdc3c7;
+  padding: 10px;
+  background-color: #fff;
+  height: 185px;
+  margin-bottom: 10px;
+}
+div.content .prod_block img {
+  display: block;
+  float: left;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+div.content .prod_block .decription h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 1.78;
+  border-bottom: 1px solid #b9c5ca;
+  text-decoration: underline;
+}
+div.content .prod_block .decription h2 a {
+  color: #529619;
+}
+div.content .prod_block .decription p {
+  font-size: 15px;
+}
+div.content .more {
+  float: right;
+  color: #236583;
+  font-size: 15px;
+  text-decoration: underline;
+}
+div.content .about {
+  margin-top: 25px;
+}
+div.content .about h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 1.78;
+  text-decoration: underline;
+  color: #529619;
+}
+div.content .about .more {
+  margin-top: 10px;
+}
+div.gallery {
+  margin-top: 50px;
+  border: 1px solid #d1d8dc;
+  border-radius: 10px;
+}
+div.gallery .title {
+  height: 45px;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+div.gallery .title h2 {
+  float: left;
+  font-size: 20px;
+  color: #529619;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+div.gallery .title a {
+  float: right;
+  color: #236583;
+  font-size: 15px;
+  text-decoration: underline;
+  margin-top: 12px;
+  margin-right: 20px;
+}
+div.gallery .photos {
+  width: 710px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+div.gallery .photos img {
+  border: 1px solid #b1beaf;
+  margin-left: 2px;
+  margin-right: 4px;
+}
+footer {
+  height: 50px;
+  opacity: 0.5;
+}
+footer ul {
+  margin: 0 auto ;
+  display: block ;
+  width: 63% ;
+}
+footer li {
+  list-style-type: none;
+  display: inline;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  border-left: 0.5px solid #000;
+}
+footer .bottom_menu {
+  width: 70%;
+  margin: 0 auto;
+}
