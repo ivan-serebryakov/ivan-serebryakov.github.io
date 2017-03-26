@@ -1,0 +1,74 @@
+@-webkit-keyframes spin{
+	from{
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	to{
+		-webkit-transform: rotate(180deg);
+		        transform: rotate(180deg);
+	}
+}
+
+@keyframes spin{
+	from{
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	to{
+		-webkit-transform: rotate(180deg);
+		        transform: rotate(180deg);
+	}
+}
+
+@-webkit-keyframes spin-revers{
+	from{
+		-webkit-transform: rotate(180deg);
+		        transform: rotate(180deg);
+	}
+	to{
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+}
+
+@keyframes spin-revers{
+	from{
+		-webkit-transform: rotate(180deg);
+		        transform: rotate(180deg);
+	}
+	to{
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+}
+
+.spin{
+
+	        -webkit-animation-name: spin;
+
+	                animation-name: spin;
+
+	        -webkit-animation-duration: 1s;
+
+	                animation-duration: 1s; 
+
+	        -webkit-animation-fill-mode: forwards; 
+
+	                animation-fill-mode: forwards;
+	
+}
+.spin_revers{
+
+	        -webkit-animation-name: spin-revers;
+
+	                animation-name: spin-revers;
+
+	        -webkit-animation-duration: 1s;
+
+	                animation-duration: 1s; 
+
+	        -webkit-animation-fill-mode: forwards; 
+
+	                animation-fill-mode: forwards;
+
+}

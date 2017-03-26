@@ -20,4 +20,5 @@ $(document).ready(function () {
       function  () {
     $("#block3_pic2").fadeOut(600);
       });
+
 });
