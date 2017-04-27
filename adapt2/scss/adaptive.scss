@@ -1,0 +1,100 @@
+
+
+@media screen and (max-device-width: 1400px){
+  header{
+    background-size: auto;
+  }
+}
+@media screen and (min-device-width: 890px) and (max-device-width: 1150px){
+  header{
+    background-position-x: -325px;
+  }
+}
+@media screen and (max-device-width: 889px){
+  header{
+    background: url('..//images/bg_adaptive.png');
+  }
+}
+
+
+
+@media screen and (max-device-width: 1271px){
+  div.wrapper .wrapper_content{
+    width: 100%;
+  }
+}
+@media screen and (max-device-width: 1117px){
+  div.wrapper .wrapper_content .main_slider .sub_slider .project_slider table
+  tr.body_line td:nth-child(6){
+    text-align: center;
+    img{
+      float: none;
+      margin: 0 auto;
+    }
+
+  }
+  div.wrapper .wrapper_content .main_slider .sub_slider
+  .project_slider table tr.body_line td {
+    height: 105px;
+  }
+
+}
+
+@media screen and (min-device-width: 689px) and (max-device-width: 1117px){
+  div.wrapper .wrapper_content .main_slider .bx-viewport {
+    max-height: 675px !important;
+  }
+}
+
+@media screen and (max-device-width: 688px){
+  div.wrapper .wrapper_content .main_slider .bx-viewport {
+    max-height: 780px !important;
+  }
+}
+
+@media screen and (max-device-width: 796px){
+  div.wrapper .wrapper_content .main_slider .cat_pager{
+    height: 110px;
+    justify-content: center;
+    button{
+      height: 50px;
+      margin: 0 5px;
+    }
+  }
+}
+
+
+@media screen and (max-device-width: 700px){
+  header .content .more_stories{
+    margin-bottom: 30px;
+  }
+  div.wrapper .wrapper_content .main_slider
+  .sub_slider .project_slider table tr.body_line td:nth-child(5){
+    font-size: 20px;
+  }
+  div.wrapper .wrapper_content .main_slider .sub_slider .project_slider table tr.body_line td:nth-child(3) {
+    font-size: 15px;
+    color: #2a4656;
+    width: 65px;
+  }
+  div.wrapper .wrapper_content .main_slider .sub_slider
+  .project_slider table thead th:nth-child(3), div.wrapper .wrapper_content
+  .main_slider .sub_slider .project_slider table thead th:nth-child(5){
+    text-align: center;
+    padding: 0;
+  }
+  div.wrapper .wrapper_content .main_slider .sub_slider .project_slider table thead th{
+    padding: 0;
+    text-align: center;
+  }
+  div.wrapper .wrapper_content .main_slider .sub_slider .project_slider table tr.body_line td:nth-child(3), div.wrapper .wrapper_content
+  .main_slider .sub_slider .project_slider table tr.body_line td:nth-child(5){
+    padding: 0;
+  }
+}
+
+@media screen and (max-device-width: 471px){
+  div.wrapper .wrapper_content .main_slider .cat_pager{
+    height: 165px;
+  }
+}
