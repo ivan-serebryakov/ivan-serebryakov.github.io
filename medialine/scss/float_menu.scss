@@ -1,0 +1,37 @@
+.float_menu{
+  position: fixed;
+  right: 0;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  .btn{
+    width: 75px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0efed;
+    margin-top: 2px;
+    border-radius: 3px 0 0 3px;
+    cursor: pointer;
+    font-family: "Arial";
+    font-size: 12px;
+    transition: all .5s linear;
+    color: $brown_text;
+  }
+  .btn:hover{
+    background-color: #892737;
+    color: #fff;
+    svg{
+      stroke: #fff;
+    }
+  }
+  span{
+    margin-top: 5px;
+  }
+  .make_red{
+    stroke: rgb(137, 39, 55);
+  }
+}
+
