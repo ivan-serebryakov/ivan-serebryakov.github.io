@@ -63,7 +63,7 @@ header{
       .bottom_menu{
         display: inline-flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
         padding-top: 10px;
         padding-left: 0;
         margin: 0;
@@ -149,6 +149,12 @@ header{
           }
           input{
             border: none;
+            border-bottom: 1px solid transparent;
+            transition: all 0.5s linear;
+            padding-left: 0;
+          }
+          input:focus{
+            border-color: #892737;
           }
         }
         .lang{
@@ -170,6 +176,15 @@ header{
             color: #fff;
           }
         }
+        /*Style of placeholder*/
+        ::-webkit-input-placeholder {color: #6a625a; opacity: 0.4; transition: all .5s linear}
+        ::-moz-placeholder          {color: #6a625a; opacity: 0.4;}
+        :-moz-placeholder           {color: #6a625a; opacity: 0.4;}
+        :-ms-input-placeholder      {color: #6a625a; opacity: 0.4;}
+        :focus::-webkit-input-placeholder {color: transparent}
+        :focus::-moz-placeholder          {color: transparent}
+        :focus:-moz-placeholder           {color: transparent}
+        :focus:-ms-input-placeholder      {color: transparent}
       }
     }
   }

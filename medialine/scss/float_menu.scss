@@ -19,12 +19,17 @@
     font-size: 12px;
     transition: all .5s linear;
     color: $brown_text;
+    svg{
+     //stroke: rgb(137, 39, 55);
+      transition: all .5s linear;
+    }
   }
   .btn:hover{
     background-color: #892737;
     color: #fff;
     svg{
       stroke: #fff;
+      fill: 0;
     }
   }
   span{

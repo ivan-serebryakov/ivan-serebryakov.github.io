@@ -1,3 +1,8 @@
+@media (min-device-width: 1920px) {
+  div.content_wrapper .banner{
+    background-size: 100%;
+  }
+}
 @media(max-width: 1200px) {
   header .header_wrapper .logo{
     padding-left: 0;
@@ -5,22 +10,32 @@
   div.content_wrapper .banner{
     background-position-x: -110px;
   }
+  div.content_wrapper .banner .decor{
+    display: none;
+  }
   div.content_wrapper .banner .banner_content{
     padding-left: 20px;
   }
   div.content_wrapper .popular .pop_block{
     justify-content: center;
+    article{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
   }
+
   div.content_wrapper .popular .title h1{
     text-align: center;
   }
   div.content_wrapper .popular .pop_block{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 10px;
   }
   div.content_wrapper .popular .popular_content{
     padding-bottom: 30px;
+    padding-top: 1px;
   }
 }
 
@@ -39,6 +54,11 @@
   header{
     padding-left: 10px;
     padding-right: 10px;
+  }
+  header .header_wrapper .logo{
+    padding: 0;
+    margin-right: 0;
+    margin-right: 0;
   }
   header .header_wrapper .top_bar .top_phones img{
     display: none;
@@ -83,6 +103,7 @@
 
 
 @media (min-device-width: 768px) and (max-device-width: 992px){
+
   header .header_wrapper .top_bar .top_menu{
     justify-content: space-around;
   }
@@ -123,6 +144,9 @@
   div.content_wrapper .info_block .info_content .square_buttons{
     padding-right: 10px;
     justify-content: space-around;
+  }
+  .content_wrapper .points{
+    padding-top: 10px;
   }
   div.content_wrapper .btn_arrow button{
     margin-left: 35px;
@@ -204,4 +228,15 @@
   div.content_wrapper .news .news_content {
     min-height: 828px;
   }
+}
+
+@media (min-device-width: 320px) and (max-device-width: 768px) {
+  header .header_wrapper .bottom_bar .search_block form input{
+    padding: 0;
+    width: 185px;
+  }
+  header .header_wrapper .bottom_bar .search_block{
+    padding: 0;
+  }
+
 }

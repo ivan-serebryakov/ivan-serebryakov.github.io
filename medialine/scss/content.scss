@@ -37,7 +37,8 @@ div.content_wrapper{
     min-height: 600px;
     background: url("..//images/banner_bg.jpg") no-repeat ;
 
-    padding-top: 134px;
+    padding-top: 111px;
+
     .banner_content{
       max-width: $max-width;
       height: 100%;
@@ -47,11 +48,17 @@ div.content_wrapper{
         font-family: "MerriweatherRegular";
         font-size: 36px;
         color: #fff;
+        margin-bottom: 10px;
       }
       h2{
         font-family: "Arial";
         font-size: 24px;
         color: #fff;
+        margin-top: 10px;
+      }
+      ul{
+        margin-top: 34px;
+        padding-left: 30px;
       }
       li{
         list-style-image: url("..//images/red_check.png");
@@ -59,6 +66,7 @@ div.content_wrapper{
         font-weight: bold;
         font-size: 18px;
         color: #fff;
+        line-height: 1.7;
       }
       button{
         width: 245px;
@@ -69,14 +77,20 @@ div.content_wrapper{
         font-size: 16px;
         font-family: "Arial";
         color: #fff;
+        margin-top: 23px;
       }
 
 
     }
+    .decor{
+      position: absolute;
+      z-index: 0;
+      right: 100px;
+    }
   }
 
   .info_block{
-
+    position: relative;
     background-color: #f0efed;
     .info_content{
       min-height: 166px;
@@ -102,7 +116,8 @@ div.content_wrapper{
           font-size: 12px;
           color: $brown_text;
           display: block;
-          margin-top: -18px
+          margin-top: -10px;
+          opacity: 0.5;
         }
       }
 
@@ -111,9 +126,11 @@ div.content_wrapper{
         justify-content: space-between;
         padding-right: 30px;
         border-right: 1px solid #dcdad7;
+        padding-bottom: 10px;
+        padding-bottom: 10px;
       }
       .insurance{
-        padding-left: 30px;
+        padding-left: 20px;
 
       }
       .points{
@@ -122,11 +139,15 @@ div.content_wrapper{
           margin: 0;
           li{
             list-style-image: url("..//images/red_point.png");
+            padding: 2px 0;
             a{
               font-family: "Arial";
               font-size: 12px;
               color: #892737;
             }
+          }
+          li:first-child{
+            padding-top: 0;
           }
         }
 
@@ -170,7 +191,7 @@ div.content_wrapper{
       article{
         h1{
           font-family: "Fedra Serif A Pro Book";
-          font-size: 18px;
+          font-size: 16px;
           color: #892737;
           margin-top: 10px;
         }
@@ -209,7 +230,7 @@ div.content_wrapper{
           padding-top: 10px;
           h1{
             margin: 0;
-            font-size: 16px;
+            font-size: 14px;
             color: #892737;
             font-family: "Fedra Serif A Pro Book";
           }
@@ -223,8 +244,8 @@ div.content_wrapper{
       }
       .small_block:hover{
         box-shadow: 0px 0px 15px 0px rgba(4, 11, 29, 0.2);
-        border: none;
-        border-bottom: 3px solid #892737;
+        border: 2px solid transparent;
+        border-bottom-color: #892737;
         h1{
           color: #333333;
         }
@@ -244,15 +265,16 @@ div.content_wrapper{
 
     }
     .title{
-      padding-top: 10px;
+
       h1{
-        margin-top: 45px;
-        margin-bottom: 45px;
+        margin-top: 40px;
+        margin-bottom: 40px;
         color: #333333;
         font-size: 30px;
         font-family: "MerriweatherBold";
       }
     }
+
     .pop_block{
       min-height: 265px;
       background-color: #fff;
@@ -261,6 +283,7 @@ div.content_wrapper{
       display: inline-flex;
       flex-wrap: wrap;
       padding-right: 0;
+      transition: all .5s linear;
       .pic{
         float: left;
         margin-right: 30px;
@@ -269,9 +292,11 @@ div.content_wrapper{
       article{
         padding-top: 30px;
         padding-left: 0;
+        padding-right: 0;
         a{
           font-family: "Fedra Serif A Pro Book";
-          font-size: 24px;
+          font-size: 27px;
+          letter-spacing: 1.5px;
           color: #892737;
           display: inline-block;
           border-bottom: 2px solid transparent;
@@ -297,6 +322,7 @@ div.content_wrapper{
             font-size: 16px;
             color: #fff;
             background-color: $brown_text;
+            margin-right: 2px;
           }
           .calc{
             width: 150px;
@@ -307,10 +333,16 @@ div.content_wrapper{
             font-size: 16px;
             color: #fff;
             background-color: #ed0039;
+            margin-left: 2px;
           }
         }
         
       }
+    }
+    .pop_block:hover{
+      -webkit-box-shadow: 0px 0px 4px 3px rgba(233,232,230,1);
+      -moz-box-shadow: 0px 0px 4px 3px rgba(233,232,230,1);
+      box-shadow: 0px 0px 4px 3px rgba(233,232,230,1);
     }
     .pop_block:last-child{
       margin-bottom: 0;
