@@ -232,7 +232,7 @@ header {
         header .header_wrapper .bottom_bar .search_block :focus:-ms-input-placeholder {
           color: transparent; }
 
-div.content_wrapper .btn_arrow button {
+.btn_arrow button {
   background: none;
   border: 1px solid #d5d4d2;
   border-radius: 50px;
@@ -245,50 +245,50 @@ div.content_wrapper .btn_arrow button {
   text-transform: uppercase;
   transition: 0.6s; }
 
-div.content_wrapper .btn_arrow .img_1 {
+.btn_arrow .img_1 {
   position: relative;
   right: 13px; }
 
-div.content_wrapper .btn_arrow .img_2 {
+.btn_arrow .img_2 {
   position: relative;
   right: 34px;
   transition: 0.6s; }
 
-div.content_wrapper .btn_arrow:hover button {
+.btn_arrow:hover button {
   color: #892737; }
 
-div.content_wrapper .btn_arrow:hover .img_2 {
+.btn_arrow:hover .img_2 {
   right: 30px; }
 
-div.content_wrapper .banner {
+.banner {
   min-height: 600px;
   background: url("..//images/banner_bg.jpg") no-repeat;
   padding-top: 111px; }
-  div.content_wrapper .banner .banner_content {
+  .banner .banner_content {
     max-width: 1206px;
     height: 100%;
     margin: 0 auto; }
-    div.content_wrapper .banner .banner_content h1 {
+    .banner .banner_content h1 {
       font-family: "MerriweatherRegular";
       font-size: 36px;
       color: #fff;
       margin-bottom: 10px; }
-    div.content_wrapper .banner .banner_content h2 {
+    .banner .banner_content h2 {
       font-family: "Arial";
       font-size: 24px;
       color: #fff;
       margin-top: 10px; }
-    div.content_wrapper .banner .banner_content ul {
+    .banner .banner_content ul {
       margin-top: 34px;
       padding-left: 30px; }
-    div.content_wrapper .banner .banner_content li {
+    .banner .banner_content li {
       list-style-image: url("..//images/red_check.png");
       font-family: "Arial";
       font-weight: bold;
       font-size: 18px;
       color: #fff;
       line-height: 1.7; }
-    div.content_wrapper .banner .banner_content button {
+    .banner .banner_content button {
       width: 245px;
       height: 40px;
       border: none;
@@ -298,38 +298,38 @@ div.content_wrapper .banner {
       font-family: "Arial";
       color: #fff;
       margin-top: 23px; }
-  div.content_wrapper .banner .decor {
+  .banner .decor {
     position: absolute;
     z-index: 0;
     right: 100px; }
 
-div.content_wrapper .info_block {
+.info_block {
   position: relative;
   background-color: #f0efed; }
-  div.content_wrapper .info_block .info_content {
+  .info_block .info_content {
     min-height: 166px;
     max-width: 1206px;
     margin: 0 auto;
     padding-top: 30px; }
-    div.content_wrapper .info_block .info_content .contacts .title, div.content_wrapper .info_block .info_content .insurance .title {
+    .info_block .info_content .contacts .title, .info_block .info_content .insurance .title {
       font-family: "Arial";
       font-size: 18px;
       color: #6a625a; }
-    div.content_wrapper .info_block .info_content .contacts .number, div.content_wrapper .info_block .info_content .insurance .number {
+    .info_block .info_content .contacts .number, .info_block .info_content .insurance .number {
       font-family: "Arial";
       font-weight: bold;
       font-size: 24px;
       color: #333333;
       display: block;
       margin-top: 20px; }
-    div.content_wrapper .info_block .info_content .contacts .single_number, div.content_wrapper .info_block .info_content .insurance .single_number {
+    .info_block .info_content .contacts .single_number, .info_block .info_content .insurance .single_number {
       font-family: "Arial";
       font-size: 12px;
       color: #6a625a;
       display: block;
       margin-top: -10px;
       opacity: 0.5; }
-    div.content_wrapper .info_block .info_content .square_buttons {
+    .info_block .info_content .square_buttons {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
@@ -340,28 +340,28 @@ div.content_wrapper .info_block {
       border-right: 1px solid #dcdad7;
       padding-bottom: 10px;
       padding-bottom: 10px; }
-    div.content_wrapper .info_block .info_content .insurance {
+    .info_block .info_content .insurance {
       padding-left: 20px; }
-    div.content_wrapper .info_block .info_content .points ul {
+    .info_block .info_content .points ul {
       padding-left: 10px;
       margin: 0; }
-      div.content_wrapper .info_block .info_content .points ul li {
+      .info_block .info_content .points ul li {
         list-style-image: url("..//images/red_point.png");
         padding: 2px 0; }
-        div.content_wrapper .info_block .info_content .points ul li a {
+        .info_block .info_content .points ul li a {
           font-family: "Arial";
           font-size: 12px;
           color: #892737; }
-      div.content_wrapper .info_block .info_content .points ul li:first-child {
+      .info_block .info_content .points ul li:first-child {
         padding-top: 0; }
 
-div.content_wrapper .news .news_content {
+.news .news_content {
   min-height: 365px;
   max-width: 1206px;
   margin: 0 auto;
   padding-left: 10px; }
 
-div.content_wrapper .news .title {
+.news .title {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -370,14 +370,14 @@ div.content_wrapper .news .title {
   align-items: center;
   padding-top: 46px;
   padding-bottom: 48px; }
-  div.content_wrapper .news .title h1 {
+  .news .title h1 {
     font-size: 30px;
     font-family: "MerriweatherBold";
     color: #333333;
     margin: 0;
     margin-right: 20px; }
 
-div.content_wrapper .news .left_block {
+.news .left_block {
   border: 2px solid #e1e0de;
   padding-left: 0;
   min-height: 191px;
@@ -386,30 +386,35 @@ div.content_wrapper .news .left_block {
   display: inline-flex;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center; }
-  div.content_wrapper .news .left_block .news_pic {
+  align-items: center;
+  transition: all .5s linear; }
+  .news .left_block .news_pic {
     margin-right: 20px;
     position: relative;
     bottom: 2px;
     right: 2px; }
-  div.content_wrapper .news .left_block article h1 {
+  .news .left_block article h1 {
     font-family: "Fedra Serif A Pro Book";
     font-size: 16px;
     color: #892737;
     margin-top: 10px; }
-  div.content_wrapper .news .left_block article p {
+  .news .left_block article p {
     font-family: "Arial";
     font-size: 12px;
     color: #6a625a;
     opacity: 0.5;
     margin-top: 20px; }
-  div.content_wrapper .news .left_block article .date {
+  .news .left_block article .date {
     font-family: "Arial";
     font-size: 13px;
     color: #000;
     opacity: 0.5; }
 
-div.content_wrapper .news .right_block .small_block {
+.news .left_block:hover {
+  border-bottom-color: #892737;
+  box-shadow: 0px 0px 15px 0px rgba(4, 11, 29, 0.2); }
+
+.news .right_block .small_block {
   min-height: 93px;
   border: 2px solid #e1e0de;
   padding-left: 0;
@@ -418,48 +423,48 @@ div.content_wrapper .news .right_block .small_block {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex; }
-  div.content_wrapper .news .right_block .small_block .news_pic {
+  .news .right_block .small_block .news_pic {
     float: left;
     margin-right: 20px;
     position: relative;
     right: 2px;
     bottom: 2px; }
-  div.content_wrapper .news .right_block .small_block article {
+  .news .right_block .small_block article {
     height: 100%;
     padding-top: 10px; }
-    div.content_wrapper .news .right_block .small_block article h1 {
+    .news .right_block .small_block article h1 {
       margin: 0;
       font-size: 14px;
       color: #892737;
       font-family: "Fedra Serif A Pro Book"; }
-    div.content_wrapper .news .right_block .small_block article .date {
+    .news .right_block .small_block article .date {
       font-family: "Arial";
       font-size: 12px;
       opacity: 0.5;
       color: #000; }
 
-div.content_wrapper .news .right_block .small_block:hover {
+.news .right_block .small_block:hover {
   box-shadow: 0px 0px 15px 0px rgba(4, 11, 29, 0.2);
   border: 2px solid transparent;
   border-bottom-color: #892737; }
-  div.content_wrapper .news .right_block .small_block:hover h1 {
+  .news .right_block .small_block:hover h1 {
     color: #333333; }
 
-div.content_wrapper .popular {
+.popular {
   background-color: #f0efed;
   padding-left: 10px;
   padding-right: 10px; }
-  div.content_wrapper .popular .popular_content {
+  .popular .popular_content {
     min-height: 1015px;
     max-width: 1206px;
     margin: 0 auto; }
-  div.content_wrapper .popular .title h1 {
+  .popular .title h1 {
     margin-top: 40px;
     margin-bottom: 40px;
     color: #333333;
     font-size: 30px;
     font-family: "MerriweatherBold"; }
-  div.content_wrapper .popular .pop_block {
+  .popular .pop_block {
     min-height: 265px;
     background-color: #fff;
     padding-left: 0;
@@ -472,15 +477,15 @@ div.content_wrapper .popular {
     flex-wrap: wrap;
     padding-right: 0;
     transition: all .5s linear; }
-    div.content_wrapper .popular .pop_block .pic {
+    .popular .pop_block .pic {
       float: left;
       margin-right: 30px;
       padding-left: 0; }
-    div.content_wrapper .popular .pop_block article {
+    .popular .pop_block article {
       padding-top: 30px;
       padding-left: 0;
       padding-right: 0; }
-      div.content_wrapper .popular .pop_block article a {
+      .popular .pop_block article a {
         font-family: "Fedra Serif A Pro Book";
         font-size: 27px;
         letter-spacing: 1.5px;
@@ -488,15 +493,15 @@ div.content_wrapper .popular {
         display: inline-block;
         border-bottom: 2px solid transparent;
         transition: all .3s linear; }
-      div.content_wrapper .popular .pop_block article a:hover {
+      .popular .pop_block article a:hover {
         border-color: #892737; }
-      div.content_wrapper .popular .pop_block article p {
+      .popular .pop_block article p {
         margin-top: 20px;
         font-size: 16px;
         font-family: "Arial";
         color: #6a625a;
         margin-bottom: 30px; }
-      div.content_wrapper .popular .pop_block article .button_block .more {
+      .popular .pop_block article .button_block .more {
         width: 140px;
         height: 40px;
         border: none;
@@ -505,8 +510,11 @@ div.content_wrapper .popular {
         font-size: 16px;
         color: #fff;
         background-color: #6a625a;
-        margin-right: 2px; }
-      div.content_wrapper .popular .pop_block article .button_block .calc {
+        margin-right: 2px;
+        transition: all 0.5s linear; }
+      .popular .pop_block article .button_block .more:hover {
+        background-color: #3e3935; }
+      .popular .pop_block article .button_block .calc {
         width: 150px;
         height: 40px;
         border: none;
@@ -515,10 +523,13 @@ div.content_wrapper .popular {
         font-size: 16px;
         color: #fff;
         background-color: #ed0039;
-        margin-left: 2px; }
-  div.content_wrapper .popular .pop_block:hover {
+        margin-left: 2px;
+        transition: all 0.5s linear; }
+      .popular .pop_block article .button_block .calc:hover {
+        background-color: #be002e; }
+  .popular .pop_block:hover {
     box-shadow: 0px 0px 4px 3px #e9e8e6; }
-  div.content_wrapper .popular .pop_block:last-child {
+  .popular .pop_block:last-child {
     margin-bottom: 0; }
 
 footer .footer_menu {
