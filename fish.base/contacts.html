@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+    <div class="top">
+        <div class="container">
+            <div class="row">
+                <div class="email col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <img src="images/mail_pic.png" alt=""><span>E-mail: mvstrech@yandex.ru</span>
+                </div>
+                <div class="search col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <form>
+                        <input type="text" placeholder="Поиск">
+                        <button type="submit"><img src="images/search_btn.png" alt=""></button>
+                    </form>
+                </div>
+                <div class="col-lg-2 col-md-2 hidden-md"></div>
+                <div class="social col-lg-2 col-md-3 col-sm-6 col-xs-12">
+                    <a href="#"><img src="images/top_facebook.png" alt=""></a>
+                    <a href="#"><img src="images/top_inst.png" alt=""></a>
+                    <a href="#"><img src="images/top_vk.png" alt=""></a>
+                </div>
+                <div class="lang col-lg-2 col-md-3 col-sm-6 col-xs-12">
+                    <button class="active"><img src="images/rus.png" alt=""> Рус</button>
+                    <button><img src="images/eng.png" alt=""> Eng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="middle">
+        <div class="container">
+            <div class="row">
+                <div class="logo col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="weather col-lg-5 col-md-6 col-sm-8 col-xs-12">
+                    <table>
+                        <tr>
+                            <td>Температура, </td>
+                            <td>+20&deg;C</td>
+                            <td>Уровень воды, </td>
+                            <td>87,54 м.</td>
+                        </tr>
+                        <tr>
+                            <td>Ветер: </td>
+                            <td>14 км,ч</td>
+                            <td>Температура<br> воды </td>
+                            <td>9&deg;C</td>
+                        </tr>
+                        <tr>
+                            <td>Атмосферное<br> давление </td>
+                            <td>1016.1 гПа</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="webcam col-lg-2 col-md-3 col-sm-3 col-xs-12 ">
+                    <button class="webcam_btn">Веб камера</button>
+                </div>
+                <div class="col-lg-1 hidden-md"></div>
+                <div class="contact col-lg-2 col-md-12 col-sm-12 col-xs-12">
+                    <span><img src="images/phone.png" alt="">+7 (906) 178-13-21</span>
+                    <button class="call order_call">Заказать звонок</button>
+                    <button class="route">Проезд</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="room_fond.html">Номерной фонд</a></li>
+                    <li><a href="cottage.html">Коттеджный поселок</a></li>
+                    <li><a href="photo.html">Фотогалерея</a></li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    <div class="pager">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="index.html">Главная /</a> <a href="#" class="active">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="title col-lg-12 col-md-12">
+                        <h1 class="block_title">КОНТАКТЫ</h1>
+                    </div>
+                    <div class="text col-lg-4 col-md-4 col-sm-12">
+                        <h2>Адрес:</h2>
+                        <p>Наша рыболовная база находится в низовьях<br>
+                            Волги в Харабалинском районе<br>
+                            (60 км от города Харабали).<br>
+                        </p>
+                        <h2>Контакты:</h2>
+                        <p>
+                            +7 (906) 178-13-21 <br>
+                            E-mail: mvstrech@yandex.ru
+                        </p>
+
+                        <button class="order_call">Заказать звонок</button>
+                    </div>
+                    <div class="map col-lg-8 col-md-8 col-sm-12">
+                        <iframe src="https://api-maps.yandex.ru/frame/v1/-/C6q1R8kx"  frameborder="0"></iframe>
+                    </div>
+                    <div class="bottom_text col-lg-12 col-md-12">
+                        <p>Добраться до базы можно автомобильным транспортом самостоятельно. Клуб предоставляет своим гостям бесплатную охраняемую автостоянку. А можно самолетом долететь до города Астрахани или поездом доехать до города Харабали, где Вас встретят и автомобилем доставят к Вашему домику. Подъезд к рыболовной базе очень удобен автотранспортом в любую погоду и время года.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="contact col-lg-3 col-md-3 col-sm-7 col-xs-12">
+                    <img src="images/mail_footer.png" alt="">
+                    <span class="email">E-mail: mvstrech@yandex.ru </span><br>
+                    <img src="images/phone_footer.png" alt="">
+                    <span class="phone">+7 (906) 178-13-21</span><br>
+                    <div class="social">
+                        <a href="#"><img src="images/top_facebook.png" alt=""></a>
+                        <a href="#"><img src="images/top_inst.png" alt=""></a>
+                        <a href="#"><img src="images/top_vk.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="left-foot-menu footer_menu">
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="room_fond.html">Номерной фонд</a></li>
+                            <li><a href="cottage.html">Коттеджный поселок</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                    <div class="right-foot-menu footer_menu">
+                        <ul>
+                            <li><a href="photo.html">Фотогалерея</a></li>
+                            <li><a href="news.html">Новости</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+
+                <div class="copy col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <span>Разработка сайта <a href="#" target="_blank">Студия ЯР</a></span><br>
+                    <span>Верстка Иван Серебряков</span><br>
+                    <span>Copyright &copy; 2016  | Все права защищены</span><br>
+                    <img src="images/maestro.jpg" alt="">
+                    <img src="images/visaE.png" alt="">
+                    <img src="images/visa.png" alt="">
+                    <img src="images/MC.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="popup_fade">
+
+</div>
+    <div class="popup col-lg-4">
+    <div class="title">
+        <button id="close_popup"><img src="images/popup_cross.png" alt=""></button>
+        <h1>Заказать звонок</h1>
+    </div>
+    <div class="form_wrapper">
+        <form>
+            <input type="text" placeholder="Ваше имя" name="name" required>
+            <input type="text" placeholder="Ваш телефон" name="phone" required>
+            <input type="email" placeholder="Ваш email" name="email" required>
+            <button type="submit" class="submit_btn">ЗАКАЗАТЬ</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
