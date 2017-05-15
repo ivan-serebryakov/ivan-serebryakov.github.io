@@ -1,0 +1,95 @@
+header{
+  font-family: "Open Sans";
+  //topline
+  .top_line{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .header_title{
+    padding: 0;
+    padding-top: 15px;
+    h2{
+      font-size: 20px;
+      color: #25262a;
+      font-weight: 100;
+    }
+    span{
+      color: #0082ad;
+      font-weight: 700;
+
+    }
+  }
+  .header_contacts{
+    img{
+      margin-right: 15px;
+    }
+    .phone{
+      font-size: 28px;
+      color: #15b799;
+      font-weight: normal;
+      margin-bottom: -10px;
+      span{
+        font-weight: 100;
+      }
+    }
+    .mail{
+      color: #0082ad;
+      font-size:14px;
+      font-weight: 100;
+      text-decoration: underline;
+    }
+  }
+
+  //navigation
+  nav{
+    background-color: #ececec;
+    li{
+      list-style-type: none;
+    }
+    .main_menu{
+
+      li{
+        text-align: center;
+        font-size: 15px;
+        color: #25262a;
+        text-transform: uppercase;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        transition: all .4s linear;
+        cursor: pointer;
+      }
+      .submenu{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 45px;
+        background-color: #0082ad;
+        transition: all 0.4s linear;
+        z-index: 3;
+        li{
+          text-transform: none;
+          font-size: 16px;
+          color: #fff;
+          text-align: left;
+          padding-left: 20px;
+          padding-top: 18px;
+          border-top: 1px solid transparent;
+          border-bottom: 1px solid transparent;
+
+        }
+        li:hover{
+          border-color: #1a88ac;
+        }
+
+      }
+      li:hover{
+        background-color: #007aa3;
+        color: #fff;
+
+      }
+
+
+    }
+
+  }
+}

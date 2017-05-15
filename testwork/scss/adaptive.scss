@@ -1,0 +1,167 @@
+@media (max-device-width: 1199px) {
+  .banner_slider .controls #slider-next{
+    left: 950px;
+  }
+  .banner_slider li.slide{
+    img{
+      width: 100%;
+      position: absolute;
+      bottom: -422px;
+    }
+  }
+  .banner_slider button{
+    margin-bottom: 15px;
+  }
+  .conditions{
+    background-size: cover;
+    h2{
+      height: 80px;
+    }
+  }
+  .ceo_block .blue_block{
+    left: 58%;
+    top: 2870px;
+  }
+  .partners img{
+    margin-top: 20px;
+  }
+  .bx-wrapper .bx-pager{
+    width: 970px;
+  }
+}
+
+
+
+
+
+
+@media (max-device-width: 991px) {
+  .header_contacts {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .banner_slider .controls{
+    top: 440px;
+    #slider-next {
+      left: 730px;
+    }
+  }
+  .banner_slider button{
+    margin-bottom: 20px;
+  }
+  .banner_slider{
+    padding-bottom: 30px;
+  }
+  .slide_text{
+    text-align: center;
+  }
+  .banner_slider li.slide{
+    img{
+      display: none;
+    }
+  }
+  .ceo_block .blue_block {
+    left: 47%;
+    top: 3635px;
+  }
+  .need_to_know .arrow {
+    height: 200px;
+  }
+
+  .footer_right-block{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .bx-wrapper .bx-pager{
+    width: 750px;
+    top: 630px;
+  }
+
+}
+
+
+
+
+
+@media (max-device-width: 767px) {
+  header nav .main_menu .submenu{
+    width: 100%;
+    li{
+      text-align: center;
+    }
+  }
+  .logo,.header_title{
+    text-align: center;
+  }
+  .banner_slider{
+    background-size: cover;
+  }
+  .banner_slider .controls{
+    display: none;
+  }
+  .conditions h2{
+    height: 50px;
+  }
+  .conditions .card{
+    margin-top: 70px;
+  }
+  .ceo_block .blue_block{
+    display: none;
+  }
+  .need_to_know .arrow {
+    height: 85px;
+  }
+  .solve .card{
+    padding-right: 0;
+  }
+  .carousel_block .carousel li {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  footer{
+    text-align: center;
+    .footer_contacts{
+      margin-top: 30px;
+    }
+    .footer_right-block{
+      margin-top: 30px;
+    }
+  }
+  .bx-wrapper .bx-pager{
+    width:100%;
+    top: 836px;
+  }
+  .call_us .light{
+    display: block;
+    width: 100%;
+  }
+}
+
+
+@media (max-device-width: 479px) {
+  .banner_slider h1{
+    font-size: 30px;
+  }
+  .visit_card{
+    padding-bottom: 20px;
+  }
+  .ceo_block h2{
+    float: none;
+    margin-bottom: 20px;
+  }
+  .fin_net p, .fin_net h1{
+    font-size: 27px;
+  }
+}
+@media (max-device-width: 469px) {
+  .bx-wrapper .bx-pager{
+
+    top: 886px;
+  }
+}
+@media (max-device-width: 406px) {
+  .bx-wrapper .bx-pager{
+
+    display: none;
+  }
+}
