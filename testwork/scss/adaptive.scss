@@ -1,3 +1,4 @@
+
 @media (max-device-width: 1199px) {
   .banner_slider .controls #slider-next{
     left: 950px;
@@ -20,14 +21,15 @@
   }
   .ceo_block .blue_block{
     left: 58%;
-    top: 2870px;
   }
   .partners img{
     margin-top: 20px;
   }
   .bx-wrapper .bx-pager{
     width: 970px;
+    margin-left: 0;
   }
+
 }
 
 
@@ -62,7 +64,6 @@
   }
   .ceo_block .blue_block {
     left: 47%;
-    top: 3635px;
   }
   .need_to_know .arrow {
     height: 200px;
@@ -134,6 +135,9 @@
   .call_us .light{
     display: block;
     width: 100%;
+  }
+  .ceo_block{
+    padding-bottom: 135px;
   }
 }
 

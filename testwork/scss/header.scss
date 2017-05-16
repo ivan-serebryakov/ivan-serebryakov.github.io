@@ -20,7 +20,7 @@ header{
     }
   }
   .header_contacts{
-    img{
+    svg{
       margin-right: 15px;
     }
     .phone{
@@ -85,7 +85,9 @@ header{
       li:hover{
         background-color: #007aa3;
         color: #fff;
-
+        .submenu{
+          display: block;
+        }
       }
 
 

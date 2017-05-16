@@ -19,13 +19,5 @@ $(document).ready(function () {
         nextText: '<img src="images/carousel_right.png" alt="">',
         prevText: '<img src="images/carousel_left.png" alt="">'
     });
-
-    $(".menu_item").on({
-        mouseenter: function () {
-            $(this).children('.submenu').fadeIn(200);
-        },
-        mouseleave: function () {
-            $(this).children('.submenu').fadeOut(300);
-        }
-    });
+    
 });

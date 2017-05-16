@@ -61,7 +61,7 @@ header {
     header .header_title span {
       color: #0082ad;
       font-weight: 700; }
-  header .header_contacts img {
+  header .header_contacts svg {
     margin-right: 15px; }
   header .header_contacts .phone {
     font-size: 28px;
@@ -86,8 +86,6 @@ header {
       text-transform: uppercase;
       padding-top: 12px;
       padding-bottom: 12px;
-      -webkit-transition: all .4s linear;
-      -o-transition: all .4s linear;
       transition: all .4s linear;
       cursor: pointer; }
     header nav .main_menu .submenu {
@@ -96,8 +94,6 @@ header {
       left: 0;
       top: 45px;
       background-color: #0082ad;
-      -webkit-transition: all 0.4s linear;
-      -o-transition: all 0.4s linear;
       transition: all 0.4s linear;
       z-index: 3; }
       header nav .main_menu .submenu li {
@@ -114,6 +110,8 @@ header {
     header nav .main_menu li:hover {
       background-color: #007aa3;
       color: #fff; }
+      header nav .main_menu li:hover .submenu {
+        display: block; }
 
 h1.title {
   font-family: "Open Sans";
@@ -123,17 +121,14 @@ h1.title {
   text-align: center; }
 
 .line {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
-  .line img {
-    width: 100%; }
+  height: 5px;
+  background: linear-gradient(to right, #15b799, #0082ad, #133a81); }
 
 .banner_slider {
   font-family: "Open Sans";
   background: url("..//images/banner_bg.png") no-repeat;
-  padding-top: 50px; }
+  padding-top: 50px;
+  background-size: cover; }
   .banner_slider li.slide {
     padding-left: 30px;
     padding-right: 30px; }
@@ -241,15 +236,9 @@ h1.title {
     .solve p span {
       font-weight: bold; }
   .solve .card {
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     padding-right: 33%;
     margin-top: 50px;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center; }
     .solve .card img {
       margin-right: 25px; }
@@ -283,7 +272,6 @@ h1.title {
 .ceo_block {
   font-family: "Open Sans";
   padding-top: 60px;
-  padding-bottom: 135px;
   background: url("..//images/ceo_bg.jpg") no-repeat;
   background-size: cover; }
   .ceo_block .visit_card {
@@ -318,9 +306,9 @@ h1.title {
     width: 335px;
     height: 330px;
     opacity: 0.5;
-    position: absolute;
-    left: 55%;
-    top: 2875px; }
+    position: relative;
+    bottom: 245px;
+    left: 700px; }
 
 .partners {
   font-family: "Open Sans";
@@ -332,22 +320,12 @@ h1.title {
   .partners .partners_logo {
     width: 100%;
     margin-top: 20px;
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
   .partners img {
-    -webkit-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
     transition: all 0.5s linear; }
   .partners img:hover {
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); }
 
 .carousel_block {
@@ -357,7 +335,7 @@ h1.title {
   .carousel_block h1 {
     color: #133a81; }
   .carousel_block .carousel li {
-    padding-left: 20px; }
+    padding-left: 35px; }
   .carousel_block .carousel div {
     background-color: #0082ad;
     border-radius: 5px;
@@ -427,7 +405,7 @@ footer {
   padding-top: 20px; }
   footer .footer_logo {
     margin-top: 10px; }
-  footer .footer_contacts img {
+  footer .footer_contacts svg {
     margin-right: 10px; }
   footer .footer_contacts .phone {
     font-weight: 100;
@@ -485,12 +463,12 @@ footer {
     .conditions h2 {
       height: 80px; }
   .ceo_block .blue_block {
-    left: 58%;
-    top: 2870px; }
+    left: 58%; }
   .partners img {
     margin-top: 20px; }
   .bx-wrapper .bx-pager {
-    width: 970px; } }
+    width: 970px;
+    margin-left: 0; } }
 
 @media (max-device-width: 991px) {
   .header_contacts {
@@ -509,8 +487,7 @@ footer {
   .banner_slider li.slide img {
     display: none; }
   .ceo_block .blue_block {
-    left: 47%;
-    top: 3635px; }
+    left: 47%; }
   .need_to_know .arrow {
     height: 200px; }
   .footer_right-block {
@@ -555,7 +532,9 @@ footer {
     top: 836px; }
   .call_us .light {
     display: block;
-    width: 100%; } }
+    width: 100%; }
+  .ceo_block {
+    padding-bottom: 135px; } }
 
 @media (max-device-width: 479px) {
   .banner_slider h1 {
